@@ -1,0 +1,41 @@
+
+# Python sanal ortami
+.venv/
+
+# Python gecici dosyalari
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter gecici dosyalari
+.ipynb_checkpoints/
+
+# VS Code yerel ayarlari
+.vscode/
+
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# FIVES veri seti
+data/raw/
+data/processed/
+
+# Model dosyalari
+*.pt
+*.pth
+*.ckpt
+
+# Deney ciktilari
+outputs/checkpoints/
+outputs/figures/
+outputs/metrics/
+runs/
+
+# Log dosyalari
+*.log
+
+# Isletim sistemi dosyalari
+.DS_Store
+Thumbs.db
